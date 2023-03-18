@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebStreams are niiiiiiice</title>
+  <style>
+    .container {
+      padding: 10px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      grid-gap: 20px;
+      align-items: stretch;
+    }
+    .grid>article {
+      border: 1px solid #ccc;
+    }
+    .grid .text {
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+  </div>
+  <div class="container">
+    <main id="cards" class="grid">
+      <!-- <article>
+        <div class="text">
+          <h3>Test 01</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, deserunt.</p>
+          <a href="#">Here's why</a>
+        </div>
+      </article>
+      <article>
+        <div class="text">
+          <h3>Test 02</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, deserunt.</p>
+          <a href="#">Here's why</a>
+        </div>
+      </article>
+      <article>
+        <div class="text">
+          <h3>Test 01</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, deserunt.</p>
+          <a href="#">Here's why</a>
+        </div>
+      </article>
+      <article>
+        <div class="text">
+          <h3>Test 03</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, deserunt.</p>
+          <a href="#">Here's why</a>
+        </div>
+      </article>
+      <article>
+        <div class="text">
+          <h3>Test 03</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, deserunt.</p>
+          <a href="#">Here's why</a>
+        </div>
+      </article>
+      <article>
+        <div class="text">
+          <h3>Test 03</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, deserunt.</p>
+          <a href="#">Here's why</a>
+        </div>
+      </article>
+      <article>
+        <div class="text">
+          <h3>Test 03</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, deserunt.</p>
+          <a href="#">Here's why</a>
+        </div>
+      </article>
+      <article>
+        <div class="text">
+          <h3>Test 03</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, deserunt.</p>
+          <a href="#">Here's why</a>
+        </div>
+      </article> -->
+    </main>
+  </div>
+
+  <script src="./index.js" type="module"></script>
+</body>
+</html>

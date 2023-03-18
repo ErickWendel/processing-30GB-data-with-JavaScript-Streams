@@ -3,6 +3,7 @@ https://www.kaggle.com/datasets/danielalbarracinm/list-of-anime-from-1990-to-202
 https://www.tpeczek.com/2019/04/fetch-api-streams-api-ndjson-and-aspnet.html
 https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_writable_streams
 https://www.kaggle.com/datasets/allen-institute-for-ai/CORD-19-research-challenge
+http://ndjson.org/
 
 head -n 10 big-file.csv > small.csv
 
@@ -75,4 +76,4 @@ server index.js
 app 
   appendToHTML
     add elementsCounter 
-    
+
