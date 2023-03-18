@@ -1,0 +1,78 @@
+https://developer.chrome.com/articles/fetch-streaming-requests/
+https://www.kaggle.com/datasets/danielalbarracinm/list-of-anime-from-1990-to-2022?resource=download
+https://www.tpeczek.com/2019/04/fetch-api-streams-api-ndjson-and-aspnet.html
+https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_writable_streams
+https://www.kaggle.com/datasets/allen-institute-for-ai/CORD-19-research-challenge
+
+head -n 10 big-file.csv > small.csv
+
+download anime 
+
+mkdir server 
+  npm init -y
+  package.json
+    type module 
+    engines: node 19
+  index.js
+    creteServer 
+      npm i byte-size@8.1
+    until 
+      const fileStream = createReadStream(filename)
+      .pipe(response)
+    
+    curl -N localhost:3000
+      should print raw file 
+    npm i csvtojson@2
+    index.js 
+      all without abort and trycatch
+
+mkdir app 
+  npm init -y
+  npm i -D browser-sync@2.29
+  package.json
+    start
+  index.html 
+    all 
+  
+  > should show the layout
+  index.js 
+    consumeAPI
+      writable 
+        console
+  > should show cors error 
+server 
+  index.js 
+    all cors 
+  > should print results
+
+
+  parseNDJSON
+    all 
+  start click 
+    abortController 
+    consume API 
+
+  stop click 
+    abortController 
+  appendToHTML 
+    all 
+  > should consume on demand 
+server 
+  add abortController
+  add request.once 
+
+  > play and pause should work and print how many lines were processed
+
+cp ../preclass/big-file.csv .
+ls -la 
+head -n 10 big-file.csv > small.csv
+show file 
+
+server index.js 
+  change filename 
+  csvtojson 
+    { headers: ['title', 'description', 'url_anime'] }
+app 
+  appendToHTML
+    add elementsCounter 
+    
