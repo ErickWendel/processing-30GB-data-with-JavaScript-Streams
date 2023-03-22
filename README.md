@@ -1,15 +1,15 @@
-# Webstreams nodejs and browser tutorial (ptbr)
+# How to read 30GB+ data in the frontend without blocking the screen - Webstreams 101
 
 ## About
-Welcome, this repo is part of my [**youtube video**](https://youtu.be/-IpRYbL4yMk) about **How to read 10GB of JSON in the frontend without crashing the screen - Webstreams 101 (pt-br)**
+Welcome, this repo is part of my [**youtube video**](https://youtu.be/EexM7EL9Blk) about **How to read 30GB+ data in the frontend without blocking the screen - Webstreams 101(en-us)**
 First of all, leave your star 🌟 on this repo.
 
-Access our [**exclusive telegram channel**](https://bit.ly/canalerickwendel) so I'll let you know about all the content I've been producing 
+Access our [**exclusive telegram channel**](https://t.me/ErickWendelContentHub) so I'll let you know about all the content I've been producing 
 
 ## Complete source code
 - Access it in [app](./recorded/)
 
-![10GB-Json](https://user-images.githubusercontent.com/8060102/212579868-0d5875f9-6c0e-42c1-b2a3-ca6d7d8b0327.jpg)
+![Webstreams 101](https://user-images.githubusercontent.com/8060102/226884237-3c84e157-9d90-4b4d-832d-88c56c8e8668.jpg)
 
 
 ## Have fun!
